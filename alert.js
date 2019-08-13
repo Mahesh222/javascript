@@ -41,7 +41,7 @@ scale=()=>{
     requestAnimationFrame(Alert)
 }
 onload=()=>{
-    btn=document.querySelector("span");
+    btn=document.querySelector("*");
     btn.addEventListener("click",scale);
 }
 /*
